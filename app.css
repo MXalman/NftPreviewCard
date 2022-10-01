@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background:hsl(217, 54%, 11%);
+}
+
+.container{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    background: hsl(216, 50%, 16%);
+    border-radius:10px;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px hsl(217, 54%, 11%);
+}
+
+.img-back{
+    position:absolute;
+}
+
+.img-hover{
+    position: relative;
+    opacity: 0;
+}
+
+.container .img-hover:hover{
+    opacity: 1;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+h1{
+    font-weight:600;
+    font-size: 1.1em;
+    margin-left: 25px;
+    color: white;
+}
+
+h1:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.container h2{
+    font-weight:300;
+    font-size: 0.9em;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+
+.price img{
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+
+.price{
+    margin: auto;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.ethereum{
+    display: flex;
+    align-items: center;
+}
+
+.ethereum span{
+    color:hsl(178, 100%, 50%);
+    font-weight:600;
+    font-size: 0.8em;
+    margin-left:5px;
+}
+
+.clock{
+    display: flex;
+    align-items: center;
+}
+
+.clock span{
+    color:hsl(215, 51%, 70%);
+    font-weight:400;
+    font-size: 0.8em;
+    margin-left: 5px;
+}
+
+.profile{
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    width:30px;
+    height:30px;
+    margin:0;
+}
+
+.profile h2{
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.profile h2 span{
+    color:white;
+}
+
+.profile h2 span:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
+
+/* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
